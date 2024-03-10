@@ -1,0 +1,125 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+#property-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.property-section {
+    flex: 1;
+    max-width: 300px; 
+}
+
+.property-card {
+    box-sizing: border-box;
+    width: 100%; 
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.property-image {
+    width: 100%; 
+    max-height: 150px;
+    object-fit: cover; 
+}
+
+.property-details {
+    flex: 1;
+    padding-left: 10px; 
+
+.contact-info,
+.schedule-visit {
+    margin-top: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .property-card {
+        max-width: 100%; 
+    }
+}
+
+.two-bhk-details {
+    display: flex;
+    flex-direction: row;
+}
+
+.three-bhk-details {
+    display: flex;
+    flex-direction: row; 
+}
+
+.duplex-details {
+    display: flex;
+    flex-direction: row; 
+}
+
+.property-details {
+    flex: 1;
+    padding-left: 10px;
+}
+
+.additional-details {
+    flex: 1;
+    padding-right: 10px;
+}
+
+.property-image {
+    width: 30%; /* Make the image fill the container */
+    max-height: 4/* flat.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+#property-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px; /* Added padding for better spacing */
+}
+
+/* Rest of your existing styles... */
+
+/* Centered and Yellow Button */
+button {
+    display: block;
+    margin: 20px auto; /* Center the button */
+    padding: 10px 20px;
+    background-color: yellow;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffd700; /* Darker yellow on hover */
+}
+00px; /* Set max height to prevent image distortion */
+    object-fit: cover; /* Cover the container with the image */
+}

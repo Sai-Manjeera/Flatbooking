@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flat Booking Interface</title>
+    <link rel="stylesheet" href="flat.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .main-content {
+            text-align: center;
+            padding: 20px;
+        }
+
+        button {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .flat-image {
+            width: 60%; /* Adjust the width as needed */
+            max-height: 300px; /* Set max height to prevent image distortion */
+            object-fit: cover; /* Cover the container with the image */
+            margin-top: 20px; /* Adjust margin as needed */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Flat Booking Interface</h1>
+</header>
+
+<div class="main-content">
+    <p>Welcome to our flat booking service. Click the button below to start exploring available flats.</p>
+    <img src="https://th.bing.com/th/id/R.cdd13a5384faa72ea2ee2eb7726d929e?rik=bc8mXaKgJfqJ9Q&riu=http%3a%2f%2fs3.amazonaws.com%2farchitecture-org%2ffiles%2fbuildings%2feric-allix-rogers-two-flat-01.jpg&ehk=1WU%2bzNwQs5YOloqidQcmJCdhCDncqj%2fUeaAzmDctViA%3d&risl=&pid=ImgRaw&r=0" alt="Flat Image" class="flat-image">
+    <br><button style="background-color: green; color: black;"onclick="window.location.href='flat-options.html'">Book a Flat</button>
+</div>
+
+</body>
+</html>
